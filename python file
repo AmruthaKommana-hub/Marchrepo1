@@ -1,6 +1,16 @@
 a = 15
 b = 12
+a = 10
+b = 5
+print(f"First: {a, b}")
 
-# Adding two numbers
-res = a + b
-print(res)
+"""
+First: (10, 5)
+"""
+
+a, b = b, a + 2
+print(f"Second: {a, b}")
+
+"""
+Second: (5, 12)
+"""
